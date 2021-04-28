@@ -1,0 +1,42 @@
+{"teammembers":[
+	{
+		"full_name": "Christie Delahunt",
+		"first_name": "Christie",
+		"image": "trainers/yogatrainer1.jpg",
+		"title": "Trainer",
+		"bio": "Charlotte is a passionate teacher and a forever student with a deep fascination for movement and healing arts. Throughout the years she has completed various trainings in vinyasa yoga, yin yoga and other healing arts as aromatherapy and reiki.",
+		"tag_line": "Completed various trainings in vinyasa yoga, yin yoga and other healing arts as aromatherapy and reiki"
+	},
+	{
+		"full_name": "Jeeny Rice",
+		"first_name": "Rice",
+		"image": "trainers/yogatrainer2.jpg",
+		"title": "Trainer",
+		"bio": "successfully completed three 200-hour RYT teacher training courses and her 300 hour RYT with Shades of Yoga. Restuning has studied a variety of Hatha Yoga traditions, including Ashtanga, Iyengar, Vinyasa Flow, and Yin yoga",
+	    "tag_line": "Successfully completed three 200-hour RYT teacher training courses and her 300 hour RYT with Shades of Yoga."
+	},
+	{
+		"full_name": "Laura Hitchoin",
+		"first_name": "Laura",
+		"image": "trainers/yogatrainer3.jpg",
+		"title": "Trainer",
+		"bio": "No matter your age or ability, I invite you to experience the joy and challenge of Hatha vinyasa yoga in a practice that progressively develops your strength and flexibility, balances the left and right sides of your body, calms your mind and soothes your soul.",
+		"tag_line": "Completed a 200 hour Yoga Alliance approved Hatha Yoga course in 2007 with Shades of Yoga"
+	},
+	{
+		"full_name": " Nettie Brown",
+		"first_name": "Nettie",
+		"image": "trainers/yogatrainer4.jpg",
+		"title": "Trainer",
+		"bio": "No matter your age or ability, I invite you to experience the joy and challenge of Hatha vinyasa yoga in a practice that progressively develops your strength and flexibility, balances the left and right sides of your body, calms your mind and soothes your soul.",
+		"tag_line": "Pilates instructor fully qualified and Yoga trainer 200 hours Shades of yoga"
+	},
+	{
+		"full_name": "Ashley Beeton",
+		"first_name": "Ashley",
+		"image": "trainers/yogatrainer5.jpg",
+		"title": "Trainer",
+		"bio": "Currently working as Business Manager within IT. Providing Class and One-in-One",
+		"tag_line": "Vinyasa/Hatha, Yin Expert"
+	}
+]}

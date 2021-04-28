@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang= "en">
+<head>  <title>  Yogalax: Schedule </title>
+    <link rel="stylesheet" href="yoga.css">
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+     <script src="scripts.js"> </script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189004090-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-189004090-1');
+</script>
+    </head>
+    <body>
+        
+        <header> <h1> Yoga Studio </h1></header>
+        <nav>
+            
+             <a href="index.html"> Home </a> &nbsp;
+              <a href="trainers.html"> Trainers</a> &nbsp;
+             <a href="schedule.html">Schedule </a> &nbsp;
+            <a href="Subscription.html">Subscription </a> &nbsp;
+            
+        </nav>
+        <div id="schd" width="1200"></div>
+        <main>
+            <h2> Yoga Schedule </h2>
+            <table>
+                <thead>
+            <tr>
+                <th> Days, Timings </th>
+                <th> 9:00 a.m.- 10:30 a.m. </th>
+                <th>  11:00 a.m.- 12:30 p.m. </th>
+                <th>  1:00 p.m.- 2:30 p.m. </th>
+                <th>  3:00p.m.- 5:30 p.m. </th>
+              
+            </tr>
+                </thead>
+                <tbody>
+            <tr>
+                <td> Monday </td>
+                <td> Morning Flow  </td>
+                <td> - </td>
+                <td> Morning Flow </td>
+                <td> - </td>
+              
+            </tr>
+            <tr>
+                <td> Tuesday </td>
+                <td> Cardio Program </td>
+                <td> Cardio Program</td>
+                <td> - </td>
+                <td> - </td>
+              
+            </tr>
+            <tr>
+                 <td> Wednesday </td>
+                <td> Body Building </td>
+                <td> Body Building </td>
+                <td> Body Building</td>
+                <td> Body Building </td>
+               
+            </tr>
+            <tr>
+                <td> Thursday </td>
+                <td> Bicep Pro </td>
+                <td> - </td>
+                <td> Bicep Pro </td>
+                <td> - </td>
+               
+            </tr>
+            <tr>
+                <td> Friday </td>
+                <td> Leg Strengthening </td>
+                <td> Leg Strengthening </td>
+                <td> Leg Strengthening </td>
+                <td> Leg Strengthening </td>
+                
+            </tr>
+            <tr>
+                <td> Saturday </td>
+                <td> Muscle Relax </td>
+                <td> Muscle Relax </td>
+                <td> Muscle Relax </td>
+                <td> Muscle Relax </td>
+               
+            </tr>
+            <tr>
+                <td> Sunday </td>
+                <td> Yoga Program </td>
+                <td> Yoga Program </td>
+                <td> Yoga Program </td>
+                <td> Yoga Program </td>
+              
+            </tr>
+                </tbody>
+            </table>
+            <p>  We are also providing sessions in our Yoga Studio. If you want to come here please book your appointment. Without appointment there is no entry. Please book your appointment by filling the form below:</p>
+            <h3> Please book your appointmnet </h3>
+             <label for="First_LastName"> First & Last Name:</label>
+    <input type="text" name="First_LastName" id="First_LastName"  required> <br> <br>   
+     
+    <label for="email">Email:</label>
+     <input type="text" name="email" id="email" placeholder="Valid Email" required> <br> <br>
+        
+    <label for="phone">Phone:</label>
+    <input type="text" name="phone" id="phone" placeholder="999-999-9999" required> <br> 
+    <p>Date:<input type="text" id="datepicker"></p>
+     <label for="timing"> Choose your Timing:</label>
+    <select name="plans" id="plans">
+    <option value="09:00 a.m.-10:30a.m.">  09:00 a.m.-10:30a.m. </option> 
+    <option value="11:00 a.m.- 12:30 p.m."> 11:00 a.m.- 12:30 p.m. </option> 
+    <option value="1:00 p.m.- 2:30 p.m."> 1:00 p.m.- 2:30 p.m. </option> 
+     <option value="3:00p.m.- 5:30 p.m."> 3:00p.m.- 5:30 p.m. </option> 
+    </select> <br> <br>
+        <button onclick="appointment()">Submit</button>
+            <p> Payment can be filled when you arrive Studio</p>
+
+        </main>
+        <footer> 
+           
+                203 Fake St. Mountain View, San Francisco <br>
+               California, USA <br> <br>
+         Copyright © 2020 All rights reserved <br>
+            </footer>
+        
+    </body>
+</html>
